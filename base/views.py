@@ -29,19 +29,19 @@ def summit(request):
     max_tokens=20,
   )["choices"][0]["text"].strip('\n')
     
-    tone = openai.Completion.create(
-    model="text-davinci-003",
-    prompt="What is the spoken tone of the speaker: "+prompt,
-    temperature=1,
-    max_tokens=50,
-  )["choices"][0]["text"].strip('\n')
+#     tone = openai.Completion.create(
+#     model="text-davinci-003",
+#     prompt="What is the spoken tone of the speaker: "+prompt,
+#     temperature=1,
+#     max_tokens=50,
+#   )["choices"][0]["text"].strip('\n')
     
-    noa = openai.Completion.create(
-    model="text-davinci-003",
-    prompt="takeaway points from this session: "+prompt,
-    temperature=1,
-    max_tokens=50,
-  )["choices"][0]["text"].strip('\n')
+#     noa = openai.Completion.create(
+#     model="text-davinci-003",
+#     prompt="takeaway points from this session: "+prompt,
+#     temperature=1,
+#     max_tokens=50,
+#   )["choices"][0]["text"].strip('\n')
     
     clear = openai.Completion.create(
     model="text-davinci-003",
