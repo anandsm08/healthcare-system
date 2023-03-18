@@ -11,10 +11,8 @@ def summit(request):
     data = request.data
     prompt = data.get('q')
     
-
     openai.api_key = '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'
     
-  
     summary = openai.Completion.create(
     model="text-davinci-003",
     prompt="hey",
