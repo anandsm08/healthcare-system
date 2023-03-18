@@ -9,14 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/material": "^5.11.13",
+    "@types/jquery": "^3.5.16",
     "@types/node": "18.15.3",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
+    "ajax": "^0.0.4",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
+    "hamburger-react": "^2.5.0",
+    "jquery": "^3.6.4",
+    "mdi-material-ui": "^7.6.0",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.0.2"
+    "typescript": "5.0.2",
+    "yup": "^1.0.2"
   }
 }
