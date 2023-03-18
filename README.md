@@ -1,38 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Healthcare-System : MindSpace
 
-First, run the development server:
+MindSpace is a peer to peer web app, where users can determine the mental health by answering questions which is later utilized to help them find a comfortable diagnosis and let them connect to nearest therapists.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Screenshots
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+<img src="https://cdn.discordapp.com/attachments/980429309837733908/1086465147775762442/image.png"  width="50%" >
+<img src="https://cdn.discordapp.com/attachments/980429309837733908/1086466240505192552/image.png"  width="50%" >
+<img src="https://cdn.discordapp.com/attachments/980429309837733908/1086466451688398898/image.png"  width="50%" >
+<img src="https://cdn.discordapp.com/attachments/980429309837733908/1086466708056842240/image.png"  width="50%" >
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Authors
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [@PyPranav](https://github.com/PyPranav)
+- [@9dubs](https://github.com/9dubs)
+- [@anandsm08](https://github.com/anandsm08)
+- [@hypernap](https://github.com/hypernap)
+## Tech Stack
 
-## Learn More
+**Client:** NextJs, Typescript, Material UI
 
-To learn more about Next.js, take a look at the following resources:
+**Server:** Django, Python
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Additional tool:** GPT-3, OpenAI
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Acknowledgements
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Marcelle E, Nolting L, Hinshaw S, Aguilera A
+Effectiveness of a Multimodal Digital Psychotherapy Platform for Adult Depression: A Naturalistic Feasibility Study
+JMIR Mhealth Uhealth 2019;
+7(1):e10948
+URL: https://mhealth.jmir.org/2019/1/e10948
+DOI: 10.2196/10948
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Rochlen, A.B., Zack, J.S. and Speyer, C. (2004), Online therapy: Review of relevant definitions, debates, and current empirical support. J. Clin. Psychol., 60: 269-283. https://doi.org/10.1002/jclp.10263
+
+Hanley, T. Researching online counselling and psychotherapy: The past, the present and the future. Couns Psychother Res. 2021; 21: 493– 497. https://doi.org/10.1002/capr.12385
+
+Thompson, Ryan Baird, "Psychology at a Distance: Examining the Efficacy of Online Therapy" (2016). University Honors Theses. Paper 285.
+https://doi.org/10.15760/honors.292
+
